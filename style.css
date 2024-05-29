@@ -1,0 +1,110 @@
+body {
+    background-color: #f8f9fa;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.message-info h5 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin: 0;
+}
+
+.message-info p {
+    font-size: 1rem;
+    color: #6c757d;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: #343a40;
+}
+
+.input-fields {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.uppercase-input {
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #ffffff;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.table-responsive {
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+th,
+td {
+    border: 1px solid #dee2e6;
+    padding: 12px;
+    text-align: center;
+    font-size: 0.875rem;
+}
+
+th {
+    background-color: #f8f9fa;
+}
+
+.result {
+    padding: 15px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    background-color: #e9f5ff;
+    font-size: 1.2rem;
+    color: #007bff;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer .btn-primary {
+    margin-top: 10px;
+}
